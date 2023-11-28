@@ -60,20 +60,6 @@ code {
     background-color: #ffffff;
     border-color: #000;
 }
-.o_main_navbar .dropdown .dropdown-toggle, .o_main_navbar .o_menu_sections .dropdown .dropdown-toggle, .o_main_navbar .o_menu_systray .dropdown .dropdown-toggle, .o_main_navbar .o_nav_entry, .o_main_navbar .o_menu_sections .o_nav_entry, .o_main_navbar .o_menu_systray .o_nav_entry, .o_main_navbar > .o_menu_sections > div, .o_main_navbar > .o_menu_sections > div > a, .o_main_navbar .o_menu_systray > div, .o_main_navbar .o_menu_systray > div > a, .o_main_navbar .o_menu_toggle, .o_main_navbar .o_navbar_apps_menu, .o_main_navbar .o_menu_brand {
-    position: relative;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: flex;
-    align-items: center;
-    width: auto;
-    height: 46px;
-    cursor: pointer;
-    user-select: none;
-    background: transparent;
-    color: $o-white;
-    font-weight: bold;
-}
 
 .btn-primary {
     color: #fff;
@@ -259,7 +245,7 @@ a {
     color: $o-blue !important;
 }
 .o_field_widget .o_field_many2one .o_input_dropdown .o_input, .o_field_widget .o_field_many2manytags .o_input_dropdown .o_input {
-    border-bottom: 1px solid $o-red);
+    border-bottom: 1px solid $o-red;
     transform: translateY(2px);
 }
 .o_required_modifier.o_input, .o_required_modifier .o_input {
@@ -272,4 +258,25 @@ a {
 .o_home_menu_background {
     background: url(/imtech_theme_creator/static/src/img/background.png);
     background-size: cover;
+}
+.o_main_navbar .dropdown .dropdown-toggle, .o_main_navbar .o_menu_sections .dropdown .dropdown-toggle, .o_main_navbar .o_menu_systray .dropdown .dropdown-toggle, .o_main_navbar .o_nav_entry, .o_main_navbar .o_menu_sections .o_nav_entry, .o_main_navbar .o_menu_systray .o_nav_entry, .o_main_navbar > .o_menu_sections > div, .o_main_navbar > .o_menu_sections > div > a, .o_main_navbar .o_menu_systray > div, .o_main_navbar .o_menu_systray > div > a, .o_main_navbar .o_menu_toggle, .o_main_navbar .o_navbar_apps_menu, .o_main_navbar .o_menu_brand {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 46px;
+    cursor: pointer;
+    user-select: none;
+    background: transparent;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.btn-secondary.disabled, .o_kanban_barcode .disabled.o_kanban_record.oe_kanban_details, .btn-secondary:disabled, .o_kanban_barcode .o_kanban_record.oe_kanban_details:disabled {
+    color: $o-darker-gray;
+    background-color: var(--o-color-3);
+    border-color: #000;
 }
