@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="web_assets_backend_inherit" model="ir.ui.view">
+            <field name="name">web.assets_backend</field>
+            <field name="model">web.assets_backend</field>
+            <field name="inherit_id" ref="web.assets_backend"/>
+            <field name="arch" type="xml">
+                <xpath expr="." position="inside">
+                    <link rel="stylesheet" href="/imtech_theme_creator/static/src/css/main.css"/>
+                    <!-- Add more links as needed -->
+                </xpath>
+            </field>
+        </record>
+         <template id="menu_customization" inherit_id="web.menu">
+        <xpath expr="//div[@class='oe_secondary_menu_placeholder']" position="replace">
+            <!-- Replace the menu text with your logo -->
+            <img src="/imtech_theme_creator/static/src/img/imtech.png" alt="Logo"/>
+        </xpath>
+    </template>
+    </data>
+</odoo>

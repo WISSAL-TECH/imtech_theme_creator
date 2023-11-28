@@ -1,0 +1,25 @@
+
+/* main.css */
+body {
+    background-color: #333333; /* Darker Background Gray */
+    color: #000000; /* Black Text */
+}
+
+/* Header styles */
+.o_main_navbar {
+    background-color: #ff0000; /* Primary Red */
+    color: #000000; /* Black Text */
+}
+
+/* Button styles */
+.btn-primary {
+    background-color: #ff3333; /* Accent Red */
+    color: #000000; /* Black Text */
+}
+
+/* Additional styles */
+.text-gray {
+    color: #555555; /* Gray Text */
+}
+
+/* Add more styles as needed */

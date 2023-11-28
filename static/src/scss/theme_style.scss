@@ -1,0 +1,243 @@
+$o-horizontal-padding: 20px;
+$o-main-text-color: black;
+
+$o-red: #D50000; // Red
+$o-white: #FFFFFF; // White
+$o-gray: #707070; // gray
+$o-darker-gray: #4f4f51; // gray
+$o-light-gray: #adb5bdc2; // gray
+$o-black: #000000; // Black
+$o-blue : #013382;
+
+$o-onboarding-dot-size: 20px;
+$o-onboarding-dot-timing: 0.5s;
+
+.text-muted {
+    color: $o-black !important;
+}
+.o_searchview .o_searchview_facet .o_searchview_facet_label {
+    background-color: #ec1818;
+}
+code {
+    font-size: 87.5%;
+    color: red;
+    word-break: break-word;
+}
+
+
+o_MessagingMenu_counter {
+    background-color: #e9ecef;
+    color: black;
+}
+
+/* In menu_customization.css */
+/* Hide the menu text */
+.oe_secondary_menu_placeholder {
+    display: none;
+}
+
+/* Show your logo instead of the menu text */
+.oe_secondary_menu {
+    display: flex;
+    align-items: center;
+}
+
+.o_MessagingMenu_counter {
+    background-color: var(--white-50);
+}
+.o_search_panel .o_search_panel_category .o_search_panel_section_icon {
+    color: #D50000;
+}
+
+code {
+    font-size: 87.5%;
+    color: #495057;
+    word-break: break-word;
+}
+
+.btn-info {
+    color: #D50000;
+    background-color: #ffffff;
+    border-color: #000;
+}
+.o_main_navbar .dropdown .dropdown-toggle, .o_main_navbar .o_menu_sections .dropdown .dropdown-toggle, .o_main_navbar .o_menu_systray .dropdown .dropdown-toggle, .o_main_navbar .o_nav_entry, .o_main_navbar .o_menu_sections .o_nav_entry, .o_main_navbar .o_menu_systray .o_nav_entry, .o_main_navbar > .o_menu_sections > div, .o_main_navbar > .o_menu_sections > div > a, .o_main_navbar .o_menu_systray > div, .o_main_navbar .o_menu_systray > div > a, .o_main_navbar .o_menu_toggle, .o_main_navbar .o_navbar_apps_menu, .o_main_navbar .o_menu_brand {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 46px;
+    cursor: pointer;
+    user-select: none;
+    background: transparent;
+    color: $o-white;
+    font-weight: bold;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #000;
+}
+.o_required_modifier.o_input, .o_required_modifier .o_input {
+    background-color: #adb5bdab !important;
+}
+.o_input {
+    border: 1px solid #6c757d;
+    padding: 2px 4px;
+}
+.o_input {
+    border-radius: 3px;
+    color: #1f1f1f;
+}
+a {
+    color: #013382;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.o_form_view .oe_button_box .oe_stat_button .o_button_icon {
+    color: #013382;
+}
+.btn-primary {
+    color: #fff;
+    background-color: $o-red;
+    border-color: var(--terminal-screen-background-color);
+}
+.o_form_view .oe_button_box .oe_stat_button .o_button_icon {
+    color: var(--gray);
+}
+.o_form_view .o_form_uri > span:first-child {
+    color: var(--danger);
+}
+.o_form_view .oe_button_box .btn.oe_stat_button > .o_stat_info .o_stat_value, .o_form_view .oe_button_box .btn.oe_stat_button > span .o_stat_value {
+    font-weight: 700;
+    color: $o-red;
+}
+.btn-link {
+    font-weight: 400;
+    color: $o-red;
+    text-decoration: none;
+}
+.o_form_view .o_horizontal_separator {
+    color: $o-blue;
+    font-weight: bold;
+}
+.o_main_navbar .dropdown .dropdown-toggle:hover, .o_main_navbar .o_nav_entry:hover, .o_main_navbar > .o_menu_sections > div:hover, .o_main_navbar > .o_menu_sections > div > a:hover, .o_main_navbar .o_menu_systray > div:hover, .o_main_navbar .o_menu_systray > div > a:hover, .o_main_navbar .o_menu_toggle:hover, .o_main_navbar .o_navbar_apps_menu:hover, .o_main_navbar .o_menu_brand:hover, .o_main_navbar .dropdown .dropdown-toggle:focus, .o_main_navbar .o_nav_entry:focus, .o_main_navbar > .o_menu_sections > div:focus, .o_main_navbar > .o_menu_sections > div > a:focus, .o_main_navbar .o_menu_systray > div:focus, .o_main_navbar .o_menu_systray > div > a:focus, .o_main_navbar .o_menu_toggle:focus, .o_main_navbar .o_navbar_apps_menu:focus, .o_main_navbar .o_menu_brand:focus, .o_main_navbar .dropdown .focus.dropdown-toggle, .o_main_navbar .focus.o_nav_entry, .o_main_navbar > .o_menu_sections > div.focus, .o_main_navbar > .o_menu_sections > div > a.focus, .o_main_navbar .o_menu_systray > div.focus, .o_main_navbar .o_menu_systray > div > a.focus, .o_main_navbar .focus.o_menu_toggle, .o_main_navbar .focus.o_navbar_apps_menu, .o_main_navbar .focus.o_menu_brand {
+    color: $o-red;
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: $o-white;
+    border-color: $o-red;
+    background-color: $o-red;
+}
+.btn-fill-primary:hover, .btn-primary:hover {
+    color: #fff;
+    background-color: $o-darker-gray;
+    border-color: $o-darker-gray;
+}
+.o_form_view .o_form_statusbar > .o_statusbar_status > .o_arrow_button.btn-primary.disabled {
+    background-color: $o-red;
+    color: #fff;
+}
+.o_form_view .o_form_statusbar > .o_statusbar_status > .o_arrow_button.btn-primary.disabled:after, .o_form_view .o_form_statusbar > .o_statusbar_status > .o_arrow_button.btn-primary.disabled:before {
+    border-left-color: $o-red;
+}
+.o_required_modifier {
+    --o-input-border-color: $o-red;
+}
+.o_form_view .o_form_statusbar > .o_statusbar_status > .o_arrow_button.btn-primary.disabled:after, .o_form_view .o_form_statusbar > .o_statusbar_status > .o_arrow_button.btn-primary.disabled:before {
+    border-left-color: $o-red;
+}
+
+.btn-link:disabled, .btn-link.disabled {
+    color: $o-red;
+    pointer-events: none;
+}
+.o_purchase_dashboard .table > thead > tr > td.o_main, .o_purchase_dashboard .table tbody > tr > td.o_main {
+    background-color: $o-red;
+}
+.o_view_nocontent .o_nocontent_help .o_view_nocontent_smiling_face:before {
+    width: 120px;
+    height: 140px;
+    background: transparent url(https://imtech-product.s3.eu-west-2.amazonaws.com/imtech-new-logo.svg) no-repeat center;
+    background-size: contain; /* Optional: Adjust the background size based on your preference */
+    background-position: center; /* Center the background image horizontally and vertically */
+}
+.o_tooltip::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: auto;
+    bottom: auto;
+    right: 0;
+    width: 28px;
+    height: 28px;
+    border: 3px solid white;
+    border-radius: 0 50% 50% 50%;
+    background: radial-gradient(#D50000, #d50000ab);
+    box-shadow: 0 0 40px 2px rgba(255, 255, 255, 0.5);
+}
+.o_main_navbar {
+    background-color: $o-red;
+    border-bottom: 1px solid $o-red;
+    display: grid;
+    height: 46px;
+    gap: 0px 0px;
+    grid-template-areas: "apps brand sections systray";
+    grid-template-columns: minmax(46px, max-content) max-content minmax(46px, 1fr) fit-content(100%);
+    grid-template-rows: 46px;
+    min-width: min-content;
+}
+
+.o_form_view .o_form_statusbar > .o_statusbar_status > .o_arrow_button:not(:first-child):before {
+    right: -11px;
+    border-left-color: #C9CCD2;
+}
+
+.o_form_view .o_form_statusbar > .o_statusbar_status > .o_arrow_button:not(:first-child):before {
+    right: -11px;
+    border-left-color: #C9CCD2;
+}
+
+.o_form_view .o_form_statusbar > .o_statusbar_status > .o_arrow_button.disabled:not(.btn-primary), .o_form_view .o_form_statusbar > .o_statusbar_status > .o_arrow_button.disabled:not(.btn-primary):hover, .o_form_view .o_form_statusbar > .o_statusbar_status > .o_arrow_button.disabled:not(.btn-primary):focus {
+    color: rgba(68, 75, 90, 0.76);
+}
+.btn-secondary.disabled, .btn-secondary:disabled {
+    color: #fff;
+    background-color: var(--o-color-3);
+    border-color: #000;
+}
+.o_form_view .o_form_statusbar > .o_statusbar_status > .o_arrow_button:not(:first-child):before, .o_form_view .o_form_statusbar > .o_statusbar_status > .o_arrow_button:not(:first-child):after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: auto;
+    bottom: auto;
+    right: -10px;
+    border-top: 16px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-right: none;
+    border-left: 11px solid var(--o-color-3);
+    -moz-transform: scale(0.9999);
+}
+.o_main_navbar .dropdown.show > .dropdown-toggle, .o_main_navbar .o_menu_sections .dropdown.show > .dropdown-toggle, .o_main_navbar .o_menu_systray .dropdown.show > .dropdown-toggle, .o_main_navbar > .o_menu_sections > div.show > a, .o_main_navbar .o_menu_systray > div.show > a, .o_main_navbar .dropdown.show > .dropdown-toggle:hover, .o_main_navbar .o_menu_sections .dropdown.show > .dropdown-toggle:hover, .o_main_navbar .o_menu_systray .dropdown.show > .dropdown-toggle:hover, .o_main_navbar > .o_menu_sections > div.show > a:hover, .o_main_navbar .o_menu_systray > div.show > a:hover, .o_main_navbar .dropdown.show > .dropdown-toggle:focus, .o_main_navbar .o_menu_sections .dropdown.show > .dropdown-toggle:focus, .o_main_navbar .o_menu_systray .dropdown.show > .dropdown-toggle:focus, .o_main_navbar > .o_menu_sections > div.show > a:focus, .o_main_navbar .o_menu_systray > div.show > a:focus {
+    background: #4f4f51;
+    color: var(--o-color-3);
+    font-weight: bold;
+}
+.o_main_navbar .dropdown .dropdown-toggle:hover, .o_main_navbar .o_nav_entry:hover, .o_main_navbar > .o_menu_sections > div:hover, .o_main_navbar > .o_menu_sections > div > a:hover, .o_main_navbar .o_menu_systray > div:hover, .o_main_navbar .o_menu_systray > div > a:hover, .o_main_navbar .o_menu_toggle:hover, .o_main_navbar .o_navbar_apps_menu:hover, .o_main_navbar .o_menu_brand:hover, .o_main_navbar .dropdown .dropdown-toggle:focus, .o_main_navbar .o_nav_entry:focus, .o_main_navbar > .o_menu_sections > div:focus, .o_main_navbar > .o_menu_sections > div > a:focus, .o_main_navbar .o_menu_systray > div:focus, .o_main_navbar .o_menu_systray > div > a:focus, .o_main_navbar .o_menu_toggle:focus, .o_main_navbar .o_navbar_apps_menu:focus, .o_main_navbar .o_menu_brand:focus, .o_main_navbar .dropdown .focus.dropdown-toggle, .o_main_navbar .focus.o_nav_entry, .o_main_navbar > .o_menu_sections > div.focus, .o_main_navbar > .o_menu_sections > div > a.focus, .o_main_navbar .o_menu_systray > div.focus, .o_main_navbar .o_menu_systray > div > a.focus, .o_main_navbar .focus.o_menu_toggle, .o_main_navbar .focus.o_navbar_apps_menu, .o_main_navbar .focus.o_menu_brand {
+    color: $o-darker-gray;
+}
+.o_field_widget.o_field_many2one .o_external_button {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    flex: 0 0 auto;
+    padding: 0;
+    margin-left: 2px;
+    font-size: 19px;
+    color: $o-red;
+    border: none;
+}
