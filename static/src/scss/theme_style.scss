@@ -295,5 +295,8 @@ o_main_navbar::before {
     left: 10px;
     width: 50px;
     height: 50px;
-    background: url(/imtech_theme_creator/static/src/img/imtech.png) center center/contain no-repeat;
+    background: url(/imtech_theme_creator/static/src/img/imtech_logo.png) center center/contain no-repeat;
+}
+badge {
+    border: 1px solid $o-darker-gray;
 }
