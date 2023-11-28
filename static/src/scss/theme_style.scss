@@ -258,3 +258,14 @@ a {
 .text-primary {
     color: $o-blue !important;
 }
+.o_field_widget .o_field_many2one .o_input_dropdown .o_input, .o_field_widget .o_field_many2manytags .o_input_dropdown .o_input {
+    border-bottom: 1px solid $o-red);
+    transform: translateY(2px);
+}
+.o_required_modifier.o_input, .o_required_modifier .o_input {
+    background-color: rgb(193 193 193 / 0%) !important;
+}
+.o_input {
+    border: 1px solid #f6f6f600;
+    padding: 2px 4px;
+}
