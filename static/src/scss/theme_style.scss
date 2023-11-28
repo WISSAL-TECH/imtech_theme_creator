@@ -241,3 +241,17 @@ a {
     color: $o-red;
     border: none;
 }
+.btn-secondary, .o_kanban_barcode .o_kanban_record.oe_kanban_details {
+    color: #091124;
+    background-color: white;
+    border-color: white;
+    color: $o-red;
+}
+.btn-secondary.disabled, .o_kanban_barcode .disabled.o_kanban_record.oe_kanban_details, .btn-secondary:disabled, .o_kanban_barcode .o_kanban_record.oe_kanban_details:disabled {
+    color: v$o-darker-gray;
+    background-color: var(--o-color-3);
+    border-color: #000;
+}
+.oe_form_field_html a:not(.btn) {
+    color: $o-blue;
+}
