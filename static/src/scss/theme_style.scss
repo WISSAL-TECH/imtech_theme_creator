@@ -310,4 +310,6 @@ o_main_navbar::after {
     background-color: $o-red;
     border-color: $o-red;
 }
-
+.o_searchview .o_searchview_autocomplete li.o_selection_focus {
+    background-color: $o-blue;
+}
