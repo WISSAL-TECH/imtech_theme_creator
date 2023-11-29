@@ -329,7 +329,7 @@ o_main_navbar::after {
 }
 
 .fa-th:before {
- content: "";
+    content: "";
     display: inline-block;
     width: 60px;
     height: 60px;
@@ -339,10 +339,18 @@ o_main_navbar::after {
     background-position: right;
     background-repeat: no-repeat;}
 
-a.fa.o_menu_toggle.fa-chevron-left::after {
-    content: url('/imtech_theme_creator/static/src/img/imtech_logo.svg');
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    margin-left: 10px;
+
+.o_home_menu_background::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    width: 150px;
+    height: 80px;
+    background: url('/imtech_theme_creator/static/src/img/imtech_logo.svg');
+    background-size: 100%;
+     background-position: right;
+    background-repeat: no-repeat;
+    z-index: 9999;
 }
+
