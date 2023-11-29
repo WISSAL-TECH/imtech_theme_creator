@@ -113,6 +113,9 @@ a {
 .o_main_navbar .dropdown .dropdown-toggle:hover, .o_main_navbar .o_nav_entry:hover, .o_main_navbar > .o_menu_sections > div:hover, .o_main_navbar > .o_menu_sections > div > a:hover, .o_main_navbar .o_menu_systray > div:hover, .o_main_navbar .o_menu_systray > div > a:hover, .o_main_navbar .o_menu_toggle:hover, .o_main_navbar .o_navbar_apps_menu:hover, .o_main_navbar .o_menu_brand:hover, .o_main_navbar .dropdown .dropdown-toggle:focus, .o_main_navbar .o_nav_entry:focus, .o_main_navbar > .o_menu_sections > div:focus, .o_main_navbar > .o_menu_sections > div > a:focus, .o_main_navbar .o_menu_systray > div:focus, .o_main_navbar .o_menu_systray > div > a:focus, .o_main_navbar .o_menu_toggle:focus, .o_main_navbar .o_navbar_apps_menu:focus, .o_main_navbar .o_menu_brand:focus, .o_main_navbar .dropdown .focus.dropdown-toggle, .o_main_navbar .focus.o_nav_entry, .o_main_navbar > .o_menu_sections > div.focus, .o_main_navbar > .o_menu_sections > div > a.focus, .o_main_navbar .o_menu_systray > div.focus, .o_main_navbar .o_menu_systray > div > a.focus, .o_main_navbar .focus.o_menu_toggle, .o_main_navbar .focus.o_navbar_apps_menu, .o_main_navbar .focus.o_menu_brand {
     color: #a0a0a0;
 }
+span[data-section]:hover {
+    color: $o-red;
+}
 .custom-control-input:checked ~ .custom-control-label::before {
     color: $o-white;
     border-color: $o-red;
@@ -336,3 +339,10 @@ o_main_navbar::after {
     background-position: right;
     background-repeat: no-repeat;}
 
+a.fa.o_menu_toggle.fa-chevron-left::after {
+    content: url('/imtech_theme_creator/static/src/img/imtech_logo.svg');
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
