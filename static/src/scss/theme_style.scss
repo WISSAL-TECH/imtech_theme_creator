@@ -256,7 +256,7 @@ a {
     padding: 2px 4px;
 }
 .o_home_menu_background {
-    background: url(/imtech_theme_creator/static/src/img/background_v2.png);
+    background: url(/imtech_theme_creator/static/src/img/v2.png);
     background-size: cover;
 }
 .o_main_navbar .dropdown .dropdown-toggle, .o_main_navbar .o_menu_sections .dropdown .dropdown-toggle, .o_main_navbar .o_menu_systray .dropdown .dropdown-toggle, .o_main_navbar .o_nav_entry, .o_main_navbar .o_menu_sections .o_nav_entry, .o_main_navbar .o_menu_systray .o_nav_entry, .o_main_navbar > .o_menu_sections > div, .o_main_navbar > .o_menu_sections > div > a, .o_main_navbar .o_menu_systray > div, .o_main_navbar .o_menu_systray > div > a, .o_main_navbar .o_menu_toggle, .o_main_navbar .o_navbar_apps_menu, .o_main_navbar .o_menu_brand {
@@ -302,6 +302,19 @@ o_main_navbar::after {
     height: 50px; /* Adjust as needed */
     border-radius: 50%; /* for a circular image, adjust as needed */
 }
-badge {
+.badge {
     border: 1px solid $o-darker-gray;
+}
+.btn-fill-primary, .btn-primary {
+    color: #fff;
+    background-color: $o-red;
+    border-color: $o-red;
+}
+.fa-th:before {
+    content: "";
+    background-image: url(/imtech_theme_creator/static/src/img/imtech_white.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
 }
