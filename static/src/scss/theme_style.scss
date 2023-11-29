@@ -255,10 +255,6 @@ a {
     border: 1px solid #f6f6f600;
     padding: 2px 4px;
 }
-.o_home_menu_background {
-    background: url(/imtech_theme_creator/static/src/img/b1.png);
-    background-size: cover;
-}
 .o_main_navbar .dropdown .dropdown-toggle, .o_main_navbar .o_menu_sections .dropdown .dropdown-toggle, .o_main_navbar .o_menu_systray .dropdown .dropdown-toggle, .o_main_navbar .o_nav_entry, .o_main_navbar .o_menu_sections .o_nav_entry, .o_main_navbar .o_menu_systray .o_nav_entry, .o_main_navbar > .o_menu_sections > div, .o_main_navbar > .o_menu_sections > div > a, .o_main_navbar .o_menu_systray > div, .o_main_navbar .o_menu_systray > div > a, .o_main_navbar .o_menu_toggle, .o_main_navbar .o_navbar_apps_menu, .o_main_navbar .o_menu_brand {
     position: relative;
     display: -webkit-box;
@@ -312,4 +308,15 @@ o_main_navbar::after {
 }
 .o_searchview .o_searchview_autocomplete li.o_selection_focus {
     background-color: $o-blue;
+}
+//hover menu bar
+.o_main_navbar .dropdown.show > .dropdown-toggle, .o_main_navbar .o_menu_sections .dropdown.show > .dropdown-toggle, .o_main_navbar .o_menu_systray .dropdown.show > .dropdown-toggle, .o_main_navbar > .o_menu_sections > div.show > a, .o_main_navbar .o_menu_systray > div.show > a, .o_main_navbar .dropdown.show > .dropdown-toggle:hover, .o_main_navbar .o_menu_sections .dropdown.show > .dropdown-toggle:hover, .o_main_navbar .o_menu_systray .dropdown.show > .dropdown-toggle:hover, .o_main_navbar > .o_menu_sections > div.show > a:hover, .o_main_navbar .o_menu_systray > div.show > a:hover, .o_main_navbar .dropdown.show > .dropdown-toggle:focus, .o_main_navbar .o_menu_sections .dropdown.show > .dropdown-toggle:focus, .o_main_navbar .o_menu_systray .dropdown.show > .dropdown-toggle:focus, .o_main_navbar > .o_menu_sections > div.show > a:focus, .o_main_navbar .o_menu_systray > div.show > a:focus {
+    background: var(--o-cc5-h3);
+    color: var(--o-color-3);
+    font-weight: bold;
+}
+
+.o_home_menu_background {
+    background: url(/web_enterprise/static/img/home-menu-bg-overlay.svg), linear-gradient(to right bottom, #a0a0a0, #B71C1C);
+    background-size: cover;
 }
