@@ -166,7 +166,7 @@ a {
     box-shadow: 0 0 40px 2px rgba(255, 255, 255, 0.5);
 }
 .o_main_navbar {
-    background-color: $o-red;
+    background-color: $o-darker-gray;
     border-bottom: 1px solid $o-red;
     display: grid;
     height: 46px;
@@ -311,7 +311,7 @@ o_main_navbar::after {
 }
 //hover menu bar
 .o_main_navbar .dropdown.show > .dropdown-toggle, .o_main_navbar .o_menu_sections .dropdown.show > .dropdown-toggle, .o_main_navbar .o_menu_systray .dropdown.show > .dropdown-toggle, .o_main_navbar > .o_menu_sections > div.show > a, .o_main_navbar .o_menu_systray > div.show > a, .o_main_navbar .dropdown.show > .dropdown-toggle:hover, .o_main_navbar .o_menu_sections .dropdown.show > .dropdown-toggle:hover, .o_main_navbar .o_menu_systray .dropdown.show > .dropdown-toggle:hover, .o_main_navbar > .o_menu_sections > div.show > a:hover, .o_main_navbar .o_menu_systray > div.show > a:hover, .o_main_navbar .dropdown.show > .dropdown-toggle:focus, .o_main_navbar .o_menu_sections .dropdown.show > .dropdown-toggle:focus, .o_main_navbar .o_menu_systray .dropdown.show > .dropdown-toggle:focus, .o_main_navbar > .o_menu_sections > div.show > a:focus, .o_main_navbar .o_menu_systray > div.show > a:focus {
-    background: var(--o-cc5-h3);
+    background: #404040;
     color: var(--o-color-3);
     font-weight: bold;
 }
@@ -320,3 +320,19 @@ o_main_navbar::after {
     background: url(/web_enterprise/static/img/home-menu-bg-overlay.svg), linear-gradient(to right bottom, #a0a0a0, #B71C1C);
     background-size: cover;
 }
+
+.o_main_navbar .dropdown .dropdown-toggle:hover, .o_main_navbar .o_nav_entry:hover, .o_main_navbar > .o_menu_sections > div:hover, .o_main_navbar > .o_menu_sections > div > a:hover, .o_main_navbar .o_menu_systray > div:hover, .o_main_navbar .o_menu_systray > div > a:hover, .o_main_navbar .o_menu_toggle:hover, .o_main_navbar .o_navbar_apps_menu:hover, .o_main_navbar .o_menu_brand:hover, .o_main_navbar .dropdown .dropdown-toggle:focus, .o_main_navbar .o_nav_entry:focus, .o_main_navbar > .o_menu_sections > div:focus, .o_main_navbar > .o_menu_sections > div > a:focus, .o_main_navbar .o_menu_systray > div:focus, .o_main_navbar .o_menu_systray > div > a:focus, .o_main_navbar .o_menu_toggle:focus, .o_main_navbar .o_navbar_apps_menu:focus, .o_main_navbar .o_menu_brand:focus, .o_main_navbar .dropdown .focus.dropdown-toggle, .o_main_navbar .focus.o_nav_entry, .o_main_navbar > .o_menu_sections > div.focus, .o_main_navbar > .o_menu_sections > div > a.focus, .o_main_navbar .o_menu_systray > div.focus, .o_main_navbar .o_menu_systray > div > a.focus, .o_main_navbar .focus.o_menu_toggle, .o_main_navbar .focus.o_navbar_apps_menu, .o_main_navbar .focus.o_menu_brand {
+    color: white;
+}
+
+.fa-th:before {
+ content: "";
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-image:url('/imtech_theme_creator/static/src/img/imtech_logo.svg');
+    background-size: 100%;
+    margin-right: 10px;
+    background-position: right;
+    background-repeat: no-repeat;}
+
