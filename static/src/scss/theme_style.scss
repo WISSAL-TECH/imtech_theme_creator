@@ -24,12 +24,6 @@ code {
     word-break: break-word;
 }
 
-
-o_MessagingMenu_counter {
-    background-color: #e9ecef;
-    color: black;
-}
-
 /* In menu_customization.css */
 /* Hide the menu text */
 .oe_secondary_menu_placeholder {
@@ -42,9 +36,7 @@ o_MessagingMenu_counter {
     align-items: center;
 }
 
-.o_MessagingMenu_counter {
-    background-color: var(--white-50);
-}
+
 .o_search_panel .o_search_panel_category .o_search_panel_section_icon {
     color: #D50000;
 }
@@ -283,9 +275,7 @@ o_main_navbar::after {
     height: 50px;
     border-radius: 50%;
 }
-.badge {
-    border: 1px solid $o-darker-gray;
-}
+
 .btn-fill-primary, .btn-primary {
     color: #fff;
     background-color: $o-red;
@@ -302,7 +292,7 @@ o_main_navbar::after {
 }
 
 .o_home_menu_background {
-    background: url(/web_enterprise/static/img/home-menu-bg-overlay.svg), linear-gradient(to right bottom, white, $o-light-gray);
+    background: url(/web_enterprise/static/img/home-menu-bg-overlay.svg), linear-gradient(to right bottom, $o-red, $o-red);
     background-size: cover;
 }
 
@@ -359,4 +349,10 @@ o_main_navbar::after {
     font-weight: 400;
     color: var(--black-25);
     text-decoration: none;
+}
+.badge {
+    border: 1px solid $o-darker-gray;
+}
+.o_MessagingMenu_counter {
+    background-color: $o-red;
 }
