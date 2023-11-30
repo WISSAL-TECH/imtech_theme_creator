@@ -8,6 +8,9 @@ $o-darker-gray: #4f4f51; // gray
 $o-light-gray: #adb5bdc2; // gray
 $o-black: #000000; // Black
 $o-blue : #013382;
+$o-cc1-link: #adb5bdc2;
+$o-cc1-btn-primary: #adb5bdc2;
+$o-cc1-btn-primary-border: #adb5bdc2;
 
 $o-onboarding-dot-size: 20px;
 $o-onboarding-dot-timing: 0.5s;
@@ -276,14 +279,6 @@ o_main_navbar::after {
     border-radius: 50%;
 }
 
-.btn-fill-primary, .btn-primary {
-    color: #fff;
-    background-color: $o-red;
-    border-color: $o-red;
-}
-.o_searchview .o_searchview_autocomplete li.o_selection_focus {
-    background-color: $o-blue;
-}
 //hover menu bar
 .o_main_navbar .dropdown.show > .dropdown-toggle, .o_main_navbar .o_menu_sections .dropdown.show > .dropdown-toggle, .o_main_navbar .o_menu_systray .dropdown.show > .dropdown-toggle, .o_main_navbar > .o_menu_sections > div.show > a, .o_main_navbar .o_menu_systray > div.show > a, .o_main_navbar .dropdown.show > .dropdown-toggle:hover, .o_main_navbar .o_menu_sections .dropdown.show > .dropdown-toggle:hover, .o_main_navbar .o_menu_systray .dropdown.show > .dropdown-toggle:hover, .o_main_navbar > .o_menu_sections > div.show > a:hover, .o_main_navbar .o_menu_systray > div.show > a:hover, .o_main_navbar .dropdown.show > .dropdown-toggle:focus, .o_main_navbar .o_menu_sections .dropdown.show > .dropdown-toggle:focus, .o_main_navbar .o_menu_systray .dropdown.show > .dropdown-toggle:focus, .o_main_navbar > .o_menu_sections > div.show > a:focus, .o_main_navbar .o_menu_systray > div.show > a:focus {
     background: #404040;
@@ -292,7 +287,7 @@ o_main_navbar::after {
 }
 
 .o_home_menu_background {
-    background: url(/web_enterprise/static/img/home-menu-bg-overlay.svg), linear-gradient(to right bottom, $o-red, $o-red);
+    background: url(/web_enterprise/static/img/home-menu-bg-overlay.svg), linear-gradient(to right bottom, black, $o-red);
     background-size: cover;
 }
 
@@ -326,25 +321,13 @@ o_main_navbar::after {
     z-index: 9999;
 }
 
-.btn-fill-primary, .btn-primary {
-    color: #fff;
-    background-color: $o-darker-gray;
-    border-color: $o-red;
-}
 .btn-secondary {
     color: #091124;
     background-color: white;
     border-color: white;
     color: black;
 }
-.o_required_modifier.o_input, .o_required_modifier .o_input {
-    background-color: rgba(193, 193, 193, 0.18) !important;
-}
 
-.o_input {
-    border: 1px solid #62677426;
-    padding: 2px 4px;
-}
 .btn-link {
     font-weight: 400;
     color: var(--black-25);
@@ -355,4 +338,18 @@ o_main_navbar::after {
 }
 .o_MessagingMenu_counter {
     background-color: $o-red;
+}
+.o_input {
+    border-width: 0 0 1px 0;
+    padding: 1px 0;
+}
+.btn-fill-primary, .btn-primary {
+    color: #fff;
+    background-color: $o-red; !important
+    border-color: $o-red; !important
+}
+.o_required_modifier.o_input, .o_required_modifier .o_input {
+    border-width: 0 0 1px 0;
+    border-color: $o-darker-gray;
+
 }
