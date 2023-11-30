@@ -345,8 +345,8 @@ o_main_navbar::after {
 }
 .btn-fill-primary, .btn-primary {
     color: #fff;
-    background-color: $o-red; !important
-    border-color: $o-red; !important
+    background-color: $o-red !important;
+    border-color: $o-red !important;
 }
 .o_required_modifier.o_input, .o_required_modifier .o_input {
     border-width: 0 0 1px 0;
