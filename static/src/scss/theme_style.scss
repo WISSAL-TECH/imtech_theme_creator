@@ -66,17 +66,6 @@ code {
     background-color: #dc3545;
     border-color: #000;
 }
-.o_required_modifier.o_input, .o_required_modifier .o_input {
-    background-color: #adb5bdab !important;
-}
-.o_input {
-    border: 1px solid #6c757d;
-    padding: 2px 4px;
-}
-.o_input {
-    border-radius: 3px;
-    color: #1f1f1f;
-}
 a {
     color: #013382;
     text-decoration: none;
@@ -251,13 +240,6 @@ span[data-section]:hover {
     border-bottom: 1px solid $o-red;
     transform: translateY(2px);
 }
-.o_required_modifier.o_input, .o_required_modifier .o_input {
-   background-color: rgba(193, 193, 193, 0%) !important;
-}
-.o_input {
-    border: 1px solid #f6f6f600;
-    padding: 2px 4px;
-}
 .o_main_navbar .dropdown .dropdown-toggle, .o_main_navbar .o_menu_sections .dropdown .dropdown-toggle, .o_main_navbar .o_menu_systray .dropdown .dropdown-toggle, .o_main_navbar .o_nav_entry, .o_main_navbar .o_menu_sections .o_nav_entry, .o_main_navbar .o_menu_systray .o_nav_entry, .o_main_navbar > .o_menu_sections > div, .o_main_navbar > .o_menu_sections > div > a, .o_main_navbar .o_menu_systray > div, .o_main_navbar .o_menu_systray > div > a, .o_main_navbar .o_menu_toggle, .o_main_navbar .o_navbar_apps_menu, .o_main_navbar .o_menu_brand {
     position: relative;
     display: -webkit-box;
@@ -320,7 +302,7 @@ o_main_navbar::after {
 }
 
 .o_home_menu_background {
-    background: url(/web_enterprise/static/img/home-menu-bg-overlay.svg), linear-gradient(to right bottom, #a0a0a0, #B71C1C);
+    background: url(/web_enterprise/static/img/home-menu-bg-overlay.svg), linear-gradient(to right bottom, white, $o-light-gray);
     background-size: cover;
 }
 
@@ -347,10 +329,34 @@ o_main_navbar::after {
     left: 30px;
     width: 150px;
     height: 80px;
-    background: url('/imtech_theme_creator/static/src/img/imtech_logo.svg');
+    background: url('/imtech_theme_creator/static/src/img/imtech_white.svg');
     background-size: 100%;
      background-position: right;
     background-repeat: no-repeat;
     z-index: 9999;
 }
 
+.btn-fill-primary, .btn-primary {
+    color: #fff;
+    background-color: $o-darker-gray;
+    border-color: $o-red;
+}
+.btn-secondary {
+    color: #091124;
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+.o_required_modifier.o_input, .o_required_modifier .o_input {
+    background-color: rgba(193, 193, 193, 0.18) !important;
+}
+
+.o_input {
+    border: 1px solid #62677426;
+    padding: 2px 4px;
+}
+.btn-link {
+    font-weight: 400;
+    color: var(--black-25);
+    text-decoration: none;
+}
