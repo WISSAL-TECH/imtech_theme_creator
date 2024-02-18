@@ -120,6 +120,7 @@ span[data-section]:hover {
 .o_required_modifier {
     --o-input-border-color: #555;
 }
+
 .o_form_view .o_form_statusbar > .o_statusbar_status > .o_arrow_button.btn-primary.disabled:after, .o_form_view .o_form_statusbar > .o_statusbar_status > .o_arrow_button.btn-primary.disabled:before {
     border-left-color: $o-red;
 }
@@ -348,8 +349,8 @@ o_main_navbar::after {
     background-color: $o-red !important;
     border-color: $o-red !important;
 }
-.o_required_modifier.o_input, .o_required_modifier .o_input {
+.o_field_invalid.o_input, .o_field_invalid {
     border-width: 0 0 1px 0;
-    border-color: $o-darker-gray;
-
+    --o-input-border-color: #d23f3a !important;
 }
+
