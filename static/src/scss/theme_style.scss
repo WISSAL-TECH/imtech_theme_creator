@@ -232,10 +232,7 @@ span[data-section]:hover {
 .text-primary {
     color: $o-blue !important;
 }
-.o_field_widget .o_field_many2one .o_input_dropdown .o_input, .o_field_widget .o_field_many2manytags .o_input_dropdown .o_input {
-    border-bottom: 1px solid $o-red;
-    transform: translateY(2px);
-}
+
 .o_main_navbar .dropdown .dropdown-toggle, .o_main_navbar .o_menu_sections .dropdown .dropdown-toggle, .o_main_navbar .o_menu_systray .dropdown .dropdown-toggle, .o_main_navbar .o_nav_entry, .o_main_navbar .o_menu_sections .o_nav_entry, .o_main_navbar .o_menu_systray .o_nav_entry, .o_main_navbar > .o_menu_sections > div, .o_main_navbar > .o_menu_sections > div > a, .o_main_navbar .o_menu_systray > div, .o_main_navbar .o_menu_systray > div > a, .o_main_navbar .o_menu_toggle, .o_main_navbar .o_navbar_apps_menu, .o_main_navbar .o_menu_brand {
     position: relative;
     display: -webkit-box;
